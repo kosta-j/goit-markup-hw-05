@@ -348,33 +348,21 @@ body {
   margin-bottom: var(--card-grid-gap);
 }
 
-.advantages-item::before {
-  content: '';
-  display: block;
-  width: 270px;
+.advantages-icon-container {
+  display: flex;
+  width: 100%;
   height: 120px;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 
   background-color: var(--secondary-light-bg-color);
-  background-repeat: no-repeat;
-  background-position: center;
   border-radius: 4px;
 }
 
-.antenna::before {
-  background-image: url(../images/advantages/antenna.svg);
-}
-
-.clock::before {
-  background-image: url(../images/advantages/clock.svg);
-}
-
-.diagram::before {
-  background-image: url(../images/advantages/diagram.svg);
-}
-
-.astronaut::before {
-  background-image: url(../images/advantages/astronaut.svg);
+.advantages-icon {
+  width: 70px;
+  height: 70px;
 }
 
 .advantages .title {
